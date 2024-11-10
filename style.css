@@ -7,10 +7,10 @@ Released for free under the Creative Commons Attribution License
 body {
 	margin: 0;
 	padding: 0;
-	background: #E6EAF8; /* Light pastel blue */
+	background: #EBF1FF; /* Light pastel blue background */
 	font-family: 'Oxygen', sans-serif;
 	font-size: 13px;
-	color: #5A5C61; /* Soft gray */
+	color: #6B6A6F; /* Cool grey for text */
 }
 
 h1, h2, h3 {
@@ -18,7 +18,7 @@ h1, h2, h3 {
 	padding: 0;
 	text-transform: uppercase;
 	font-weight: 300;
-	color: #5E4C8D; /* Pastel purple */
+	color: #5D5479; /* Soft pastel purple */
 }
 
 h1 {
@@ -40,21 +40,17 @@ p, ul, ol {
 
 a {
 	text-decoration: none;
-	color: #6A9FB5; /* Cool pastel blue */
-}
-
-a:hover {
-	color: #4D7094; /* Slightly darker blue for hover */
+	color: #6C8EA7; /* Pastel blue */
 }
 
 #wrapper {
 	overflow: hidden;
-	background: #FFFFFF; /* White background */
+	background: #F0F5FA; /* Light pastel white-blue */
 }
 
 .container {
 	width: 1200px;
-	margin: 0px auto;
+	margin: 0 auto;
 }
 
 /* Header */
@@ -68,7 +64,7 @@ a:hover {
 	width: 960px;
 	height: 200px;
 	margin: 0 auto;
-	padding: 0px 20px;
+	padding: 0 20px;
 }
 
 /* Logo */
@@ -83,30 +79,30 @@ a:hover {
 }
 
 #logo h1 {
-	padding: 5px 0px 20px 0px;
+	padding: 5px 0 20px 0;
 	letter-spacing: -6px;
 	text-transform: capitalize;
 	font-size: 80px;
-	color: #5E4C8D; /* Pastel purple */
+	color: #4C4A6D; /* Deep pastel purple */
 }
 
 #logo p {
 	margin-top: -20px;
-	padding: 0px 0px 0px 5px;
+	padding: 0 0 0 5px;
 	font-size: 20px;
 	font-weight: 300;
-	color: #8A8985; /* Soft gray */
+	color: #7A7C85; /* Soft grey */
 }
 
 #logo p a {
-	color: #5A5C61;
+	color: #7A7C85;
 }
 
 #logo a {
 	border: none;
 	background: none;
 	text-decoration: none;
-	color: #5E4C8D; /* Pastel purple */
+	color: #4B4D60; /* Darker pastel */
 }
 
 /* Menu */
@@ -115,7 +111,7 @@ a:hover {
 	overflow: hidden;
 	height: 52px;
 	margin-bottom: 2em;
-	background: #5E4C8D; /* Pastel purple */
+	background: #343A40; /* Dark grey-blue */
 }
 
 #menu {
@@ -125,7 +121,7 @@ a:hover {
 
 #menu ul {
 	margin: 0;
-	padding: 0px 0px 0px 0px;
+	padding: 0;
 	list-style: none;
 	line-height: normal;
 	text-align: center;
@@ -137,7 +133,7 @@ a:hover {
 
 #menu a {
 	display: block;
-	padding: 0px 30px;
+	padding: 0 30px;
 	line-height: 52px;
 	border: none;
 	text-decoration: none;
@@ -145,11 +141,11 @@ a:hover {
 	font-family: 'Oswald', sans-serif;
 	font-size: 14px;
 	font-weight: 300;
-	color: #FFFFFF; /* White text */
+	color: #FFFFFF;
 }
 
 #menu a:hover, #menu .current_page_item a {
-	background: #8377B7; /* Light pastel purple for hover */
+	background: #7C82A3; /* Soft pastel blue-grey */
 	color: #FFFFFF;
 }
 
@@ -157,7 +153,7 @@ a:hover {
 
 #page {
 	overflow: hidden;
-	padding: 20px 20px 40px 20px;
+	padding: 20px;
 }
 
 /* Content */
@@ -165,7 +161,7 @@ a:hover {
 #content {
 	float: left;
 	width: 752px;
-	padding: 0px 0px 0px 0px;
+	padding: 0;
 }
 
 /* Footer */
@@ -173,7 +169,7 @@ a:hover {
 #footer {
 	height: 100px;
 	margin: 0 auto;
-	padding: 50px 0px 0px 0px;
+	padding: 50px 0 0;
 }
 
 #footer p {
@@ -182,17 +178,17 @@ a:hover {
 	line-height: normal;
 	text-align: center;
 	text-shadow: 1px 1px 0px #FFFFFF;
-	color: #8A8985; /* Soft gray */
+	color: #9A9EA3; /* Soft grey */
 }
 
 #footer a {
 	text-decoration: underline;
-	color: #8A8985; /* Soft gray */
+	color: #6C8EA7;
 }
 
 #footer a:hover {
 	text-decoration: none;
-	color: #5A5C61; /* Darker gray for hover */
+	color: #505C6D; /* Darker grey-blue */
 }
 
 .box1 {
@@ -205,25 +201,35 @@ a:hover {
 
 #three-column {
 	overflow: hidden;
-	padding: 10px 0px 50px 0px;
+	padding: 10px 0 50px 0;
 }
 
-#three-column .tbox1, #three-column .tbox2, #three-column .tbox3 {
-	width: 384px;
-	margin: 0 10px;
+#three-column .tbox1 {
 	float: left;
+	width: 384px;
+	margin-right: 20px;
+}
+
+#three-column .tbox2 {
+	float: left;
+	width: 384px;
+}
+
+#three-column .tbox3 {
+	float: right;
+	width: 384px;
 }
 
 .box-style {
-	background: #F8F8FA; /* Soft white with a hint of blue */
+	background: #FFFFFF;
 	text-align: center;
 }
 
 .box-style h2 {
-	padding: 10px 0px;
+	padding: 10px 0;
 	letter-spacing: -1px;
 	font-size: 22px;
-	color: #4D7094; /* Cool pastel blue */
+	color: #4A4C68; /* Cool dark purple */
 }
 
 .box-style .content {
@@ -234,9 +240,8 @@ a:hover {
 
 .button {
 	display: inline-block;
-	margin: 1em 0em;
-	background: #5E4C8D; /* Pastel purple */
+	margin: 1em 0;
+	background: #6A74B0; /* Medium pastel blue-purple */
 	padding: 1em 2em;
 	color: #FFFFFF;
-	border-radius: 4px;
 }

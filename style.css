@@ -195,7 +195,7 @@ a:hover {
 
 /* Hidden text initially */
 .button::after {
-    content: "Learn More"; /* Text to display on hover */
+    content: "Go!"; /* Text to display on hover */
     position: absolute;
     top: 50%;
     left: 50%;
@@ -209,45 +209,6 @@ a:hover {
 
 /* Show text on hover */
 .button:hover::after {
-    opacity: 1; /* Make text visible */
-}
-
-.mail-button {
-    display: inline-block;
-    margin: 20px 0;
-    padding: 10px 20px;
-    background: #E50087; /* Magenta base color */
-    color: #FFFFFF;
-    font-size: 14px;
-    font-weight: 600;
-    border-radius: 5px;
-    position: relative;
-    overflow: hidden; /* Ensures smooth text reveal */
-    transition: background 0.3s ease, transform 0.2s ease;
-    text-align: center;
-}
-
-/* Hover effect for button */
-.mail-button:hover {
-    background: #00A8E8; /* Cyan teal for hover */
-    transform: scale(1.1); /* Slight zoom effect */
-}
-
-.mail-button::after {
-    content: "Send Message"; /* Text to display on hover */
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #FFFFFF;
-    font-size: 14px;
-    font-weight: 600;
-    opacity: 0; /* Initially hidden */
-    transition: opacity 0.3s ease; /* Smooth reveal */
-}
-
-/* Show text on hover */
-.mail-button:hover::after {
     opacity: 1; /* Make text visible */
 }
 
